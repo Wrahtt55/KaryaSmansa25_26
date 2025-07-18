@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karya Siswa - SMANSAMOZAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://imageshack.com/i/poad9korp" alt="Logo SMANSAMOZAR" class="logo">
+                <div>
+                    <h1>SMANSAMOZAR</h1>
+                    <p>Portal Informasi & Karya Siswa</p>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item"><a href="info.html" class="nav-link">Info Sekolah</a></li>
+                    <li class="nav-item active"><a href="karya.html" class="nav-link">Karya Siswa</a></li>
+                    <li class="nav-item"><a href="tentang.html" class="nav-link">Tentang</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Karya Siswa</h1>
+            <p>Galeri digital kreativitas siswa SMANSAMOZAR</p>
+        </div>
+    </section>
+
+    <!-- Karya Content -->
+    <section class="karya-gallery">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="desain">Desain</button>
+                <button class="filter-btn" data-filter="foto">Fotografi</button>
+                <button class="filter-btn" data-filter="video">Video</button>
+                <button class="filter-btn" data-filter="sastra">Sastra</button>
+            </div>
+            
+            <div class="gallery-grid" id="gallery-container">
+                <!-- Karya akan dimuat dari JSON via JavaScript -->
+            </div>
+            
+            <div class="text-center">
+                <button id="load-more" class="btn">Muat Lebih Banyak</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-info">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-author"></p>
+                <p id="lightbox-category"></p>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SMANSAMOZAR</h3>
+                    <p>Portal Informasi dan Karya Siswa</p>
+                    <p>Jl. Pendidikan No. 123, Kota Mozar</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="info.html">Info Sekolah</a></li>
+                        <li><a href="karya.html">Karya Siswa</a></li>
+                        <li><a href="tentang.html">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> osissmansamozar@example.com</p>
+                    <p><i class="fas fa-phone"></i> (021) 12345678</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SMANSAMOZAR. Dibuat dengan ❤ oleh <a href="tentang.html">Reza Permana</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
