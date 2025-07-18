@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Senja di Kota",
+        "author": "Ananda Putri",
+        "category": "Fotografi",
+        "image": "https://images.unsplash.com/photo-1541963463532-d68292c34b19",
+        "description": "Foto ini diambil di pusat kota Mozar saat matahari terbenam, menangkap momen indah antara alam dan perkotaan."
+    },
+    {
+        "title": "Desain Poster Literasi",
+        "author": "Reza Permana",
+        "category": "Desain",
+        "image": "https://images.unsplash.com/photo-1556740738-b6a63e27c4df",
+        "description": "Poster kampanye literasi digital untuk acara bulan bahasa di sekolah."
+    },
+    {
+        "title": "Puisi: Angin Malam",
+        "author": "Siti Aisyah",
+        "category": "Sastra",
+        "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad",
+        "description": "Kumpulan puisi tentang perenungan di malam hari."
+    },
+    {
+        "title": "Lukisan Digital Abstrak",
+        "author": "Dika Pratama",
+        "category": "Desain",
+        "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5",
+        "description": "Ekspresi perasaan melalui bentuk dan warna abstrak."
+    },
+    {
+        "title": "Video Dokumenter Lingkungan",
+        "author": "Tim OSIS",
+        "category": "Video",
+        "image": "https://images.unsplash.com/photo-1574717024453-3545edf62d0b",
+        "description": "Dokumentasi kegiatan bersih-bersih lingkungan sekitar sekolah."
+    },
+    {
+        "title": "Fotografi Makro Serangga",
+        "author": "Budi Santoso",
+        "category": "Fotografi",
+        "image": "https://images.unsplash.com/photo-1615789591457-74a63395c990",
+        "description": "Detail sayap kupu-kupu yang ditangkap dengan teknik makro."
+    },
+    {
+        "title": "Cerpen: Penantian",
+        "author": "Rina Wijaya",
+        "category": "Sastra",
+        "image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8",
+        "description": "Cerita pendek tentang seorang anak yang menunggu kepulangan ayahnya."
+    },
+    {
+        "title": "Animasi Pendek",
+        "author": "Ahmad Fauzi",
+        "category": "Video",
+        "image": "https://images.unsplash.com/photo-1579353977828-2a4eab540b9a",
+        "description": "Animasi 2D tentang persahabatan dengan durasi 3 menit."
+    },
+    {
+        "title": "Potret Street Photography",
+        "author": "Dewi Kurnia",
+        "category": "Fotografi",
+        "image": "https://images.unsplash.com/photo-1493863641943-9b68992a8d07",
+        "description": "Potret kehidupan sehari-hari di pasar tradisional Mozar."
+    },
+    {
+        "title": "Logo OSIS Digital",
+        "author": "Rizky Ramadhan",
+        "category": "Desain",
+        "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7",
+        "description": "Redesain logo OSIS SMANSAMOZAR versi digital."
+    },
+    {
+        "title": "Puisi: Lautan Bintang",
+        "author": "Maya Sari",
+        "category": "Sastra",
+        "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+        "description": "Kumpulan puisi bertema alam semesta dan kedamaian."
+    },
+    {
+        "title": "Tutorial Coding Python",
+        "author": "Tim Coding Club",
+        "category": "Video",
+        "image": "https://images.unsplash.com/photo-1547658719-da2b51169166",
+        "description": "Video tutorial dasar-dasar pemrograman Python untuk pemula."
+    }
+]
