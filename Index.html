@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMANSAMOZAR - Portal Informasi & Karya Siswa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://imageshack.com/i/poad9korp" class="logo">
+                <div>
+                    <h1>SMANSAMOZAR</h1>
+                    <p>Portal Informasi & Karya Siswa</p>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item"><a href="info.html" class="nav-link">Info Sekolah</a></li>
+                    <li class="nav-item"><a href="karya.html" class="nav-link">Karya Siswa</a></li>
+                    <li class="nav-item"><a href="tentang.html" class="nav-link">Tentang</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Kegiatan Sekolah">
+                <div class="slide-content">
+                    <h2>Pentas Seni 2025</h2>
+                    <p>Menyambut tahun ajaran baru dengan kreativitas siswa</p>
+                    <a href="info.html" class="btn">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1588072432836-e10032774350" alt="Lomba Pramuka">
+                <div class="slide-content">
+                    <h2>Lomba Pramuka Tingkat Kabupaten</h2>
+                    <p>Tim pramuka SMANSAMOZAR meraih juara 1</p>
+                    <a href="info.html" class="btn">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Kegiatan Belajar">
+                <div class="slide-content">
+                    <h2>Ujian Kenaikan Kelas</h2>
+                    <p>Persiapan menghadapi UKK tahun ajaran 2024/2025</p>
+                    <a href="info.html" class="btn">Selengkapnya</a>
+                </div>
+            </div>
+            <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
+
+    <!-- Kegiatan Terbaru -->
+    <section class="kegiatan-section">
+        <div class="container">
+            <h2 class="section-title">Kegiatan Terbaru</h2>
+            <div class="kegiatan-grid">
+                <div class="kegiatan-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24" alt="MPLS">
+                    <div class="kegiatan-content">
+                        <h3>MPLS 2025</h3>
+                        <p class="kegiatan-date"><i class="far fa-calendar-alt"></i> 15 Juli 2025</p>
+                        <p>Masa Pengenalan Lingkungan Sekolah untuk siswa baru</p>
+                        <a href="info.html" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="kegiatan-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30" alt="Pentas Seni">
+                    <div class="kegiatan-content">
+                        <h3>Pentas Seni</h3>
+                        <p class="kegiatan-date"><i class="far fa-calendar-alt"></i> 20 Agustus 2025</p>
+                        <p>Menampilkan berbagai bakat siswa dalam bidang seni</p>
+                        <a href="info.html" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="kegiatan-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Olimpiade">
+                    <div class="kegiatan-content">
+                        <h3>Olimpiade Sains</h3>
+                        <p class="kegiatan-date"><i class="far fa-calendar-alt"></i> 5 September 2025</p>
+                        <p>Perlombaan sains antar sekolah se-kabupaten</p>
+                        <a href="info.html" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="info.html" class="btn">Lihat Semua Kegiatan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Karya Pilihan -->
+    <section class="karya-section">
+        <div class="container">
+            <h2 class="section-title">Karya Pilihan Minggu Ini</h2>
+            <div class="karya-grid">
+                <div class="karya-card" data-aos="zoom-in">
+                    <img src="https://images.unsplash.com/photo-1541963463532-d68292c34b19" alt="Karya Siswa">
+                    <div class="karya-overlay">
+                        <h3>Senja di Kota</h3>
+                        <p>Oleh: Ananda Putri</p>
+                        <p class="karya-category">Fotografi</p>
+                    </div>
+                </div>
+                <div class="karya-card" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df" alt="Karya Siswa">
+                    <div class="karya-overlay">
+                        <h3>Desain Poster</h3>
+                        <p>Oleh: Reza Permana</p>
+                        <p class="karya-category">Desain Grafis</p>
+                    </div>
+                </div>
+                <div class="karya-card" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad" alt="Karya Siswa">
+                    <div class="karya-overlay">
+                        <h3>Puisi: Angin Malam</h3>
+                        <p>Oleh: Siti Aisyah</p>
+                        <p class="karya-category">Sastra</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="karya.html" class="btn">Lihat Galeri Karya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SMANSAMOZAR</h3>
+                    <p>Portal Informasi dan Karya Siswa</p>
+                    <p>Jln. Pemuda 55 Mojosari Kabupaten Mojokerto – Jawa Timur Kode Pos 61382</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="info.html">Info Sekolah</a></li>
+                        <li><a href="karya.html">Karya Siswa</a></li>
+                        <li><a href="tentang.html">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> info@sman1mojosari.sch.id</p>
+                    <p><i class="fas fa-phone"></i> 0321-591457</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SMANSAMOZAR. Dibuat dengan ❤ oleh <a href="tentang.html">Reza Permana</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  </html>
