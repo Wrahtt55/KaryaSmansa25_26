@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Sekolah - SMANSAMOZAR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://imageshack.com/i/poad9korp" class="logo">
+                <div>
+                    <h1>SMANSAMOZAR</h1>
+                    <p>Portal Informasi & Karya Siswa</p>
+                </div>
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item active"><a href="info.html" class="nav-link">Info Sekolah</a></li>
+                    <li class="nav-item"><a href="karya.html" class="nav-link">Karya Siswa</a></li>
+                    <li class="nav-item"><a href="tentang.html" class="nav-link">Tentang</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Info Sekolah</h1>
+            <p>Semua pengumuman dan kegiatan terbaru SMANSAMOZAR</p>
+        </div>
+    </section>
+
+    <!-- Info Content -->
+    <section class="info-content">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="pengumuman">Pengumuman</button>
+                <button class="filter-btn" data-filter="kegiatan">Kegiatan</button>
+            </div>
+            
+            <div class="info-grid">
+                <!-- Pengumuman 1 -->
+                <div class="info-card" data-category="pengumuman" data-aos="fade-up">
+                    <div class="info-date">
+                        <span class="day">15</span>
+                        <span class="month">Jul</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Pengumuman MPLS 2025</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Pengumuman <i class="fas fa-user"></i> OSIS SMANSAMOZAR</p>
+                        <p>Diberitahukan kepada seluruh siswa baru bahwa Masa Pengenalan Lingkungan Sekolah (MPLS) akan dilaksanakan pada tanggal 17-19 Juli 2025. Peserta diharapkan hadir pukul 07.00 WIB dengan mengenakan seragam SMP masing-masing.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <!-- Kegiatan 1 -->
+                <div class="info-card" data-category="kegiatan" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-date">
+                        <span class="day">20</span>
+                        <span class="month">Jul</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Pentas Seni Tahun Ajaran Baru</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Kegiatan <i class="fas fa-user"></i> Ekstrakurikuler Seni</p>
+                        <p>Dalam rangka menyambut tahun ajaran baru 2025/2026, OSIS SMANSAMOZAR akan menyelenggarakan Pentas Seni dengan tema "Kreativitas Tanpa Batas". Acara akan dilaksanakan pada Sabtu, 20 Juli 2025 di aula sekolah.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <!-- Pengumuman 2 -->
+                <div class="info-card" data-category="pengumuman" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-date">
+                        <span class="day">25</span>
+                        <span class="month">Jul</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Libur Hari Kemerdekaan</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Pengumuman <i class="fas fa-user"></i> Kepala Sekolah</p>
+                        <p>Berdasarkan kalender pendidikan, sekolah akan meliburkan kegiatan belajar mengajar pada tanggal 17 Agustus 2025 dalam rangka memperingati Hari Kemerdekaan Republik Indonesia ke-80.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <!-- Kegiatan 2 -->
+                <div class="info-card" data-category="kegiatan" data-aos="fade-up">
+                    <div class="info-date">
+                        <span class="day">05</span>
+                        <span class="month">Aug</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Lomba Pramuka Tingkat Kabupaten</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Kegiatan <i class="fas fa-user"></i> Ekstrakurikuler Pramuka</p>
+                        <p>Tim Pramuka SMANSAMOZAR akan mengikuti Lomba Tingkat Kabupaten pada tanggal 5 Agustus 2025. Dukungan dari seluruh warga sekolah sangat kami harapkan. Latihan intensif dilaksanakan setiap hari Sabtu.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <!-- Pengumuman 3 -->
+                <div class="info-card" data-category="pengumuman" data-aos="fade-up" data-aos-delay="100">
+                    <div class="info-date">
+                        <span class="day">10</span>
+                        <span class="month">Aug</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Pembagian Raport Mid Semester</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Pengumuman <i class="fas fa-user"></i> Wali Kelas</p>
+                        <p>Pembagian raport mid semester ganjil tahun ajaran 2025/2026 akan dilaksanakan pada hari Sabtu, 10 Agustus 2025. Orang tua/wali murid diharapkan hadir untuk menerima langsung raport dari wali kelas.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <!-- Kegiatan 3 -->
+                <div class="info-card" data-category="kegiatan" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-date">
+                        <span class="day">15</span>
+                        <span class="month">Aug</span>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="info-details">
+                        <h3>Kunjungan Edukasi ke Museum Nasional</h3>
+                        <p class="info-meta"><i class="fas fa-tag"></i> Kegiatan <i class="fas fa-user"></i> Bidang Studi Sejarah</p>
+                        <p>Dalam rangka memperkaya pembelajaran sejarah, siswa kelas XI akan melaksanakan kunjungan edukasi ke Museum Nasional pada tanggal 15 Agustus 2025. Pendaftaran dibuka hingga tanggal 10 Agustus 2025.</p>
+                        <a href="#" class="btn-small">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SMANSAMOZAR</h3>
+                    <p>Portal Informasi dan Karya Siswa</p>
+                    <p>Jl. Pendidikan No. 123, Kota Mozar</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="info.html">Info Sekolah</a></li>
+                        <li><a href="karya.html">Karya Siswa</a></li>
+                        <li><a href="tentang.html">Tentang Kami</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-envelope"></i> osissmansamozar@example.com</p>
+                    <p><i class="fas fa-phone"></i> (021) 12345678</p>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SMANSAMOZAR. Dibuat dengan ❤ oleh <a href="tentang.html">Reza Permana</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
